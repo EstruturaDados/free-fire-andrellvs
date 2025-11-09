@@ -1,3 +1,4 @@
+🔫🎒 Desafio Código da Ilha – Edição Free Fire
 DESAFIO DE PROGRAMAÇÃO EM C: INVENTÁRIO DE SOBREVIVÊNCIA E OTIMIZAÇÃO
 
 Este repositório documenta a solução para uma série de desafios de programação em C, focados na construção e otimização de um Sistema de Inventário simulando um jogo de sobrevivência. O projeto é uma progressão prática no uso de Estruturas de Dados (Vetores e Listas Encadeadas) e Algoritmos de Ordenação e Busca (Sequencial, Binária, Bubble, Insertion e Selection Sort).
@@ -31,22 +32,22 @@ O código está escrito em C padrão e é compilado usando o GNU Compiler Collec
 1. Clonar o Repositório
 
 Use o comando git clone para baixar o código fonte:
-
+```
 git clone [URL_DO_SEU_REPOSITORIO] 
 cd [NOME_DO_REPOSITORIO]
-
+```
 2. Compilar o Código
 
 Assumindo que o código final (nível Mestre) está no arquivo inventario.c, use o gcc para compilar:
-
+```
 gcc inventario.c -o inventario 
-
+```
 3. Executar o Sistema
 
 Após a compilação, execute o programa a partir do terminal:
-
+```
 ./inventario
-
+```
 O programa será iniciado, e um menu interativo guiará você pelas funcionalidades de cadastro, ordenação e busca, mostrando métricas de desempenho.
 
 ---
