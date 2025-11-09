@@ -1,5 +1,6 @@
 🔫🎒 Desafio Código da Ilha – Edição Free Fire
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 Este projeto em C simula a etapa final de um jogo de sobrevivência, onde o jogador deve priorizar e ordenar componentes para montar uma torre de fuga. O sistema demonstra o uso prático de diferentes algoritmos de ordenação e uma busca binária otimizada, permitindo ao jogador escolher a melhor estratégia com base em medições de desempenho.
 
 🛠️ Estrutura do Projeto
