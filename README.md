@@ -1,3 +1,41 @@
+🔫🎒 Desafio Código da Ilha – Edição Free Fire
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Este projeto em C simula a etapa final de um jogo de sobrevivência, onde o jogador deve priorizar e ordenar componentes para montar uma torre de fuga. O sistema demonstra o uso prático de diferentes algoritmos de ordenação e uma busca binária otimizada, permitindo ao jogador escolher a melhor estratégia com base em medições de desempenho.
+
+🛠️ Estrutura do Projeto
+O sistema é construído em torno da struct Componente, que armazena as seguintes informações essenciais:
+
+nome[30]: Identificação do componente (ex: "Chip Central").
+
+tipo[20]: Categoria do item (ex: "Controle", "Suporte").
+
+prioridade: Valor inteiro de 1 a 10, usado como critério de ordenação.
+
+📋 Requisitos e Funcionalidades
+O programa atende aos seguintes requisitos principais:
+
+Funcionalidade	Descrição	Algoritmo Utilizado	Critério de Ordenação
+Priorização por Nome	Ordena os componentes alfabeticamente.	Bubble Sort	String (nome)
+Priorização por Tipo	Ordena os componentes por categoria.	Insertion Sort	String (tipo)
+Priorização Numérica	Ordena os componentes por nível de urgência.	Selection Sort	Inteiro (prioridade)
+Busca Crítica	Localiza rapidamente o componente-chave ("Chip Central") para destravar a montagem.	Busca Binária	String (nome - requer ordenação prévia)
+
+Exportar para as Planilhas
+
+📊 Análise de Desempenho
+O sistema fornece feedback educacional crucial para o jogador:
+
+Contador de Comparações (comparacoes): Exibe o número exato de comparações realizadas por cada algoritmo de ordenação/busca.
+
+Medição de Tempo (clock()): Mostra o tempo de execução (em segundos) de cada operação, destacando a eficiência dos algoritmos (O(n 
+2
+ ) vs. O(logn)).
+
+💡 Objetivo
+O objetivo principal é demonstrar que a escolha do algoritmo de ordenação e a subsequente aplicação da Busca Binária (O(logn)) são cruciais para a eficiência e velocidade em momentos críticos do jogo, como a busca por um item vital na safe zone final.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 # 🔫🎒 Desafio Código da Ilha – Edição Free Fire
 
 Bem-vindo ao **Desafio Código da Ilha – Edição Free Fire!**  
