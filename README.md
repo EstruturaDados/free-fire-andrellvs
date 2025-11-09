@@ -1,6 +1,8 @@
+---
 🔫🎒 Desafio Código da Ilha – Edição Free Fire
+---
 DESAFIO DE PROGRAMAÇÃO EM C: INVENTÁRIO DE SOBREVIVÊNCIA E OTIMIZAÇÃO
-
+---
 Este repositório documenta a solução para uma série de desafios de programação em C, focados na construção e otimização de um Sistema de Inventário simulando um jogo de sobrevivência. O projeto é uma progressão prática no uso de Estruturas de Dados (Vetores e Listas Encadeadas) e Algoritmos de Ordenação e Busca (Sequencial, Binária, Bubble, Insertion e Selection Sort).
 
 ---
